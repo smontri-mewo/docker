@@ -1,9 +1,7 @@
 # Table of contents
 
-## Module Docker
-
-* [Page 1](README.md)
-  * [Module Docker](module-docker/page-1/readme.md)
+* [Module Docker](README.md)
+  * [Pré-requis](readme/pre-requis.md)
 
 ## Exercices
 
