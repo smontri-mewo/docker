@@ -24,6 +24,6 @@ Si Docker est présent, l'output de la commande doit ressembler à cela :
 L'exemple ci-dessus est un exemple, en principe la liste de containers doit être vide dans votre cas
 {% endhint %}
 
-{% hint style="info" %}
+{% hint style="warning" %}
 Si Docker n'est pas présent, merci de l'installer !
 {% endhint %}
