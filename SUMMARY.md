@@ -5,6 +5,7 @@
 ## Exercices
 
 * [Gestion des images Docker](exercices/pull-dune-image-docker/README.md)
+  * [Premiers conteneurs](exercices/pull-dune-image-docker/premiers-conteneurs.md)
   * [Images locales](exercices/pull-dune-image-docker/images-locales.md)
   * [Build d'images](exercices/pull-dune-image-docker/build-dimages.md)
   * [Registry distante](exercices/pull-dune-image-docker/registry-distante.md)
