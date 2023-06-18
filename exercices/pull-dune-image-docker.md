@@ -2,7 +2,7 @@
 description: Installation sur une VM Ubuntu
 ---
 
-# Installation de Docker
+# 1. Installation de Docker
 
 ### &#x20;Suppression de version précédente de Docker
 
@@ -32,3 +32,7 @@ echo \
 sudo apt update
 sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
+
+{% hint style="info" %}
+Ajoutez également les packages d'utilitaires réseaux `iputils-ping` et `net-tools`&#x20;
+{% endhint %}
