@@ -12,11 +12,11 @@
   * [Push d'images](exercices/3.-gerer-les-images/push-dimages.md)
   * [Build d'images](exercices/3.-gerer-les-images/build-dimages.md)
 * [4. Les volumes](exercices/4.-les-volumes/README.md)
-  * [Démarrer avec les volumes](exercices/4.-les-volumes/demarrer-avec-les-volumes.md)
   * [Bind Mount](exercices/4.-les-volumes/bind-mount.md)
-  * [Volume Docker](exercices/4.-les-volumes/volume-docker.md)
+  * [Volumes](exercices/4.-les-volumes/volumes.md)
 
 ***
 
 * [5. Les réseaux](5.-les-reseaux/README.md)
   * [Bridge](5.-les-reseaux/bridge.md)
+  * [Publish vs Expose](5.-les-reseaux/publish-vs-expose.md)
