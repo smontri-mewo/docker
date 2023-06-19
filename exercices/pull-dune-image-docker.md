@@ -33,6 +33,12 @@ sudo apt update
 sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
 
+### Eviter l'élévation de privilèges
+
+```bash
+sudo usermod –aG docker $USER
+```
+
 {% hint style="info" %}
 Ajoutez également les packages d'utilitaires réseaux `iputils-ping` et `net-tools`&#x20;
 {% endhint %}
