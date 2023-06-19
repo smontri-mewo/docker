@@ -48,7 +48,7 @@ Flask==2.2.3
 
 {% code title="Dockerfile" %}
 ```docker
-FROM python@sha256:2659ee0e84fab5bd62a4d9cbe5b6750285e79d6d6ec00d8e128352dad956f096
+FROM python
 
 # Labels
 LABEL version=v1.0.0
@@ -62,13 +62,13 @@ ARG APP_USER=smontri
 
 # Create a dedicated user
 
-RUN adduser -D ${APP_USER}
+RUN adduser ${APP_USER}
 
 # Directory
 WORKDIR /app
 
 # Copy & install requirements
-RUN apk add --no-cache curl=8.1.2-r0
+RUN apt install -y curl
 
 USER ${APP_USER}:${APP_USER}
 COPY --chown=${APP_USER}  requirements.txt requirements.txt
