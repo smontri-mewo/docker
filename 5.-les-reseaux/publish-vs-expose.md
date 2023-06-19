@@ -11,7 +11,7 @@ docker run -d --name c1 -p 8080:80 nginx:latest
 
 La commande docker ps indique le mapping de port
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 ### Vérification
 
@@ -47,7 +47,7 @@ Attention au numéro de port attribué aléatoirement
 ### Exécuter un container nginx avec expose
 
 ```bash
-docker run -d --name c3 --expose 8080 nginx:latestsh
+docker run -d --name c3 --expose 8080 nginx:latest
 ```
 
 {% hint style="info" %}
